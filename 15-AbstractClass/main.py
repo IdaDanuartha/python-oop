@@ -2,6 +2,7 @@
 # abc = abstract base class
 from abc import ABC, abstractmethod
 
+# Class Button
 class Button(ABC):
 
     def __init__(self, set_link):
@@ -16,6 +17,7 @@ class Button(ABC):
     def link(self):
         pass
 
+# Class PushButton
 class PushButton(Button):
 
     def click(self):
